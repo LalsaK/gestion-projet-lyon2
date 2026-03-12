@@ -1,0 +1,3 @@
+[submodule "template_externe"]
+	path = template_externe
+	url = https://github.com/Wandmalfarbe/pandoc-latex-template.git
