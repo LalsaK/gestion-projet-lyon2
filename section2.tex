@@ -47,10 +47,9 @@ La coordination de notre projet a été structurée autour de l'outil \textit{Gi
 \subsection*{[C2] Intégration continue}
 Nous avons mis en place un processus d'intégration continue via \textit{GitHub Actions}[cite: 34]. À chaque nouveau \textit{push} sur la branche principale, un script se déclenche automatiquement pour compiler notre code source \LaTeX{} et générer le document PDF final[cite: 35].
 
-% Remplacez 'nom_image_actions.png' par votre capture d'écran de l'onglet Actions
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{nom_image_actions.png}
+    \includegraphics[width=0.8\textwidth]{images\6-Intégration_continue.png}
     \caption{Exécution réussie de l'intégration continue pour la compilation \LaTeX.}
 \end{figure}
 
@@ -64,13 +63,15 @@ Pour démontrer notre capacité à gérer une dépendance externe[cite: 36], nou
 \end{figure}
 
 \subsection*{[B2] Intégration de version et tag \& [B4] Intégration de site web}
-Enfin, pour finaliser notre projet, nous avons déployé une page web de présentation via \textit{GitHub Pages}[cite: 29, 31]. 
-L'URL de notre site est la suivante : \textbf{[https://github.com/LalsaK/gestion-projet-lyon2.git]}[cite: 31].
-De plus, la version finale de ce document a été figée dans l'historique à l'aide d'un tag Git (version \texttt{v1.0})[cite: 24].
+Enfin, pour finaliser notre projet, nous avons déployé une page web de présentation via \textit{GitHub Pages}.
+L'URL de notre site est la suivante : \url{https://github.com/LalsaK/gestion-projet-lyon2.git}
+De plus, la version finale de ce document a été figée dans l'historique à l'aide d'un tag Git (version \texttt{v1.0}).
 
-% Remplacez 'nom_image_tag_web.png' par la capture du tag ou du site web
 \begin{figure}[h]
-    \centering
-    \includegraphics[width=0.8\textwidth]{nom_image_tag_web.png}
-    \caption{Création du tag de version finale et aperçu du site web.}
+\centering
+\includegraphics[width=0.45\textwidth]{images\11-Tag.png}
+\hfill
+\includegraphics[width=0.45\textwidth]{images\10-SiteWeb.png}
+\caption{Création du tag de version finale (gauche) et déploiement du site web (droite).}
 \end{figure}
+
